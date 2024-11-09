@@ -1,4 +1,4 @@
-/* shared styles */
+/* shared styles start */
 *{
     margin: 0px;
     padding: 0px;
@@ -11,13 +11,22 @@
 .button-primary{
     color: beige;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 600;
     background-color: #FF900E;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-transform: capitalize;
 }
+.text-primary{
+    color: #FF900E;
+    font-weight: 900;
+}
+section{
+    margin: 50px 150px;
+}
+/* shared styles end */
+
 /* header styling */
 .header{
     background-color:#ffb6c11e;
@@ -70,6 +79,41 @@ li a{
     height: auto;
 }
 /* image-banner styling end */
+
+/* main body styling */
+/* quick-list-section styling start */
+.quick-list-container{
+    display: flex;
+}
+.image-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.image-container img{
+    width: 100%;
+    height: auto;
+}
+.quick-list-desc-container{
+    width: 50%;
+    text-align: left;
+    padding: 70px 20px 20px;
+}
+.quick-list-title{
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.quick-list-desc{
+    font-size: .68em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+}
+/* border: 2px solid red; */
+/* quick-list-section styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
     /* nav responsive */
