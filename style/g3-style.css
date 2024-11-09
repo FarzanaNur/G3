@@ -251,4 +251,22 @@ li a{
         margin: 20px;
         padding: 0px;
     }
+    /* sponsor-section responsive */
+    .sponsor-desc{
+        text-align: justify;
+        margin: 0px;
+        padding: 0px;
+    }
+    .sponsor-image-container{
+        margin: 0px;
+        padding: 20px 0px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .sponsor-image-container img{
+        width: 100%;
+        max-width: 70px;
+        height: auto;
+        margin: 10px 0px;
+    }
 }
