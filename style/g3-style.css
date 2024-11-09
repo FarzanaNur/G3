@@ -60,6 +60,7 @@ li a{
 /* header-desc-container styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
+    /* nav responsive */
     nav{
         padding: 20px;
         flex-direction: column-reverse;
@@ -68,5 +69,23 @@ li a{
     }
     li{
         justify-content: center;
+    }
+    /* header-desc-container responsive */
+    .header-desc-container{
+        margin: 0px 10px;
+        padding: 0px;
+    }
+    .title{
+        font-size: 1.5em;
+        padding: 0px 10px;
+    }
+    .heading-desc{
+        padding: 10px 0px;
+        margin: 0px 10px;
+        font-size: .8em;
+    } 
+    .header button{
+        font-size: .8em;
+        padding: 5px 10px;
     }
 }
