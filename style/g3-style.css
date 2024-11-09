@@ -10,7 +10,8 @@
 /* button primary */
 .button-primary{
     color: beige;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 700;
     background-color: #FF900E;
     border: none;
     border-radius: 5px;
@@ -21,7 +22,7 @@
 .header{
     background-color:#ffb6c11e;
 }
-/* nav */
+/* nav styling start */
 nav{
     display: flex;
     justify-content: space-between;
@@ -41,7 +42,22 @@ li a{
     text-decoration: none;
     font-weight: 700px;
 }
-
+/* nav styling end */
+/* header-desc-container styling start */
+.header-desc-container{
+    padding: 20px 50px;
+    margin: 20px 150px;
+    text-align: center;
+}
+.title{
+    font-size: 2.5em;
+    padding: 10px 50px;
+}
+.heading-desc{
+    padding: 20px 50px;
+    margin: 0px 30px;
+}
+/* header-desc-container styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
     nav{
