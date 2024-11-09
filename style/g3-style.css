@@ -22,15 +22,15 @@
     color: #FF900E;
     font-weight: 900;
 }
-section{
+section,footer{
     margin: 50px 150px;
+}
+.header,.footer{
+    background-color:#ffb6c14f;
 }
 /* shared styles end */
 
 /* header styling */
-.header{
-    background-color:#ffb6c11e;
-}
 /* nav styling start */
 nav{
     display: flex;
@@ -176,6 +176,13 @@ li a{
     margin: 0px 20px;
 }
 /* sponsor-section styling end */
+/* footer styling start */
+.footer{
+    text-align: center;
+    padding: 30px;
+    color: #1e1e1e9e;
+}
+/* footer styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
     /* nav responsive */
@@ -268,5 +275,8 @@ li a{
         max-width: 70px;
         height: auto;
         margin: 10px 0px;
+    }
+    .footer{
+        margin: 50px 0px 0px;
     }
 }
