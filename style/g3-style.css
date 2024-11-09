@@ -113,7 +113,6 @@ li a{
     margin-bottom: 20px;
     text-align: left;
 }
-/* border: 2px solid red; */
 /* quick-list-section styling end */
 
 /* facts-section styling start */
@@ -149,6 +148,34 @@ li a{
     margin: 5px 0px;
 }
 /* facts-section styling end */
+
+/* sponsor-section styling start */
+.sponsor-section{
+    margin-top: 40px;
+}
+.sponsor-desc-container{
+    text-align: center;
+}
+.sponsor-heading{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.sponsor-desc{
+    line-height: 1.5em;
+    margin: 0px 120px;
+    padding: 0px 150px;
+}
+.sponsor-image-container{
+    padding: 30px 10px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-image-container img{
+    flex: 1;
+    margin: 0px 20px;
+}
+/* sponsor-section styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
     /* nav responsive */
