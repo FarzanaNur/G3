@@ -27,7 +27,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 80px;
+    padding: 30px 150px;
 }
 .page-title{
     text-transform: capitalize;
@@ -38,9 +38,12 @@ li{
 }
 li a{
     color: black;
-    margin-right: 30px;
+    margin-right: 20px;
     text-decoration: none;
     font-weight: 700px;
+}
+#login-anchor{
+    margin-right: 0px;
 }
 /* nav styling end */
 /* header-desc-container styling start */
@@ -58,6 +61,15 @@ li a{
     margin: 0px 30px;
 }
 /* header-desc-container styling end */
+/* image-banner styling start */
+.banner{
+    padding: 0px 150px 20px;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+/* image-banner styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
     /* nav responsive */
