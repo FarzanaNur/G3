@@ -6,6 +6,17 @@
 }
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* button primary */
+.button-primary{
+    color: beige;
+    font-size: 1.2em;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
 /* header styling */
 .header{
     background-color:#ffb6c11e;
