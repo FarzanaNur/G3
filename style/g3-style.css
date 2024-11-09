@@ -30,3 +30,15 @@ li a{
     text-decoration: none;
     font-weight: 700px;
 }
+
+/* responsive small */
+@media screen and (max-width:576px) {
+    nav{
+        padding: 20px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    li{
+        justify-content: center;
+    }
+}
