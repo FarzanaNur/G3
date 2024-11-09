@@ -6,3 +6,28 @@
 }
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    /* max-width: 1440px; */
+    margin: 0px 80px;
+}
+/* header styling */
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+.page-title{
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: black;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 700px;
+}
