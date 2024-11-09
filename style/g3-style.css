@@ -100,4 +100,12 @@ li a{
         font-size: .8em;
         padding: 5px 10px;
     }
+    /* banner image responsive */
+    .banner{
+        padding: 20px;
+    }
+    .banner img{
+        width: 100%;
+        height: auto;
+    }
 }
