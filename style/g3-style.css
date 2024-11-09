@@ -37,6 +37,7 @@ li a{
         padding: 20px;
         flex-direction: column-reverse;
         gap: 20px;
+        font-size: .8em;
     }
     li{
         justify-content: center;
