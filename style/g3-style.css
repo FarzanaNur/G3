@@ -199,4 +199,29 @@ li a{
         padding: 0px;
         margin: 10px 0px;
     }
+    .quick-list-desc{
+        font-size: 1em;
+    }
+    /* facts-section responsive */
+    .facts-desc-container{
+        width: 100%;
+    }
+    .facts-desc{
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .badge-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0px;
+        gap: 20px;
+        margin: 20px 0px;
+    }
+    .badge-container>div{
+        margin: 0px;
+    }
+    .badge-box{
+        margin: 20px;
+        padding: 0px;
+    }
 }
