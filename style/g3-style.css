@@ -152,4 +152,16 @@ li a{
         width: 100%;
         height: auto;
     }
+    /* quick-list-section styling start */
+    section{
+        margin: 20px;
+    }
+    .quick-list-container{
+        flex-direction: column;
+    }
+    .image-container,.quick-list-desc-container{
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0px;
+    }
 }
