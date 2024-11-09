@@ -99,7 +99,8 @@ li a{
 .quick-list-desc-container{
     width: 50%;
     text-align: left;
-    padding: 70px 20px 20px;
+    padding: 140px 20px 20px;
+    
 }
 .quick-list-title{
     font-weight: 400;
@@ -114,6 +115,40 @@ li a{
 }
 /* border: 2px solid red; */
 /* quick-list-section styling end */
+
+/* facts-section styling start */
+.facts-desc-container{
+    width: 70%;
+}
+.facts-heading{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.facts-desc{
+    padding-right: 110px;
+    margin-right: 110px;
+    line-height: 1.8;
+}
+.badge-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.badge-container>div{
+    flex: 1;
+    margin: 0px 20px;
+}
+.badge-box{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.badge-box h2{
+    margin: 5px 0px;
+}
+/* facts-section styling end */
 /* responsive small */
 @media screen and (max-width:576px) {
     /* nav responsive */
