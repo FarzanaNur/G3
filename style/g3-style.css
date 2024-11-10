@@ -118,13 +118,14 @@ li a{
 /* feature-section styling start */
 .feature-container{
     display: flex;
-    margin-bottom: 80px;
-    border: 2px solid red;
+    gap: 30px;
+    margin: 80px 0px 10px;
 }
 .feature-container>div{
     flex: 1;
 }
 .feature-heading{
+    padding-left: 20px;
     font-size: 2.3em;
     margin-right: 90px;
     padding-right: 50px;
@@ -138,22 +139,43 @@ li a{
     margin-right: 30px;
 }
 .feature-category-boxes{
-    margin: 20px 30px 20px 10px;
+    margin: 20px 20px 30px 10px;
     padding: 20px 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.064);
 }
 .feature-category-desc{
     margin: 10px 0px 0px;
-    font-size: .8em;
+    font-size: .9em;
 }
 .feature-image-container{
     width: 50%;
+    /* background-image: url('../resources/images/architect.png'); */
+    /* background-size: cover ; */
 }
 .feature-image-container img{
     width: 100%;
-    max-height: 700px;
+    min-height: 700px;
     height: auto;
+}
+.experience{
+    color: beige;
+    background-color: #FF900E;
+    width: 250px;
+    height: 130px;
+    border-radius: 5px;
+    position:  relative ;
+    bottom: 80px;
+    left: -50px;
+}
+.experience p{
+    text-align: center;
+    padding-top: 30px;
+}
+.experience span{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 3em;
 }
 /* feature-section styling end */
 
