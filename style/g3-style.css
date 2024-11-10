@@ -22,6 +22,9 @@
     color: #FF900E;
     font-weight: 900;
 }
+.text-grey{
+    color: #585757;
+}
 section,footer{
     margin: 50px 150px;
 }
@@ -104,11 +107,11 @@ li a{
 }
 .quick-list-title{
     font-weight: 400;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 .quick-list-desc{
-    font-size: .68em;
+    font-size: .9em;
     line-height: 1.5;
     margin-bottom: 20px;
     text-align: left;
