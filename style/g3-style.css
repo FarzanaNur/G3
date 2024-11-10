@@ -389,3 +389,29 @@ li a{
         margin: 20px 0px 0px;
     }
 }
+@media screen and (min-width:577px) and (max-width:992px){
+    section{
+        margin: 0px;
+        padding: 0px 20px;
+    }
+    /* sponsor section medium responsive */
+    .sponsor-heading{
+        font-size: 4em;
+        color: #f58504;
+        text-decoration: underline #d0750e;
+    }
+    .sponsor-desc{
+        font-size: 2em;
+        padding: 0px;
+        margin: 0px 70px;
+    }
+    .sponsor-image-container img{
+        margin-left: 0px;
+        padding: 0px;
+    }
+    /* footer medium responsive */
+    .footer{
+        font-size: 1.5em;
+        margin: 20px 0px 0px;
+    }
+}
