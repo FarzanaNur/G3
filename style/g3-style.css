@@ -394,6 +394,32 @@ li a{
         margin: 0px;
         padding: 0px 20px;
     }
+        /* facts-section responsive */
+    .facts-desc-container{
+        width: 100%;
+        text-align: center;
+    }
+    .facts-heading{
+        font-size: 4.5em;
+        margin: 0px 40px;
+        border-bottom: 10px solid #f29225;
+    }
+    .facts-desc{
+        font-size: 1.5em;
+        margin-right: 0px;
+        padding-right: 0px;            padding: 20px;
+    }
+    .badge-container{
+        gap: 10px;
+        margin: 0px;
+    }
+    .badge-container>div{
+         margin: 10px;
+    }
+    .badge-box{
+        padding: 20px;
+        font-size: 1.5em;
+    }
     /* sponsor section medium responsive */
     .sponsor-heading{
         font-size: 4em;
