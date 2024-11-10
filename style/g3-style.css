@@ -303,6 +303,48 @@ li a{
     .quick-list-desc{
         font-size: 1em;
     }
+    /* feature-section responsive */
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+    .feature-desc-container{
+        width: 100%;
+    }
+    .feature-heading{
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .feature-category-container{
+        margin-right: 0px;
+    }
+    .feature-category-boxes{
+        margin: 20px 10px;
+    }
+    .feature-image-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+        border-top: 10px solid #FF900E;
+    }
+    .experience{
+        top: 30px;
+        left: 120px;
+        height: 80px;
+    }
+    .experience p{
+        text-align: center;
+        padding: 20px;
+    }
+    .experience span{
+        margin-top: 0px;
+        font-size: 2em;
+    }
+    .feature-image-container img{
+        width: 100%;
+        min-height: fit-content;
+        height: auto;
+    }
     /* facts-section responsive */
     .facts-desc-container{
         width: 100%;
