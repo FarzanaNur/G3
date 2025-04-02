@@ -172,11 +172,13 @@ li a{
     border-radius: 5px;
     position:  relative ;
     bottom: 80px;
-    left: -50px;
+    left: -30px;
+    /* border: 2px solid green; */
 }
 .experience p{
     text-align: center;
     padding-top: 30px;
+    
 }
 .experience span{
     margin-top: 30px;
@@ -397,6 +399,11 @@ li a{
         margin: 0px;
         padding: 0px 20px;
     }
+
+
+    nav {
+        padding: 30px 100px;
+    }
         /* facts-section responsive */
     .facts-desc-container{
         width: 100%;
@@ -423,6 +430,80 @@ li a{
         padding: 20px;
         font-size: 1.5em;
     }
+
+    .header-desc-container {
+        padding: 25px;
+        margin: 20px 70px;
+        /* border: 2px solid red; */
+        /* text-align: center; */
+    }
+
+    .title {
+        font-size: 3em;
+        padding: 13px 35px;
+    }
+
+    .heading-desc {
+        font-size: 22px;
+        padding: 17px 8px;
+        margin: 0px 15px;
+    }
+
+    .banner {
+        padding: 10px 68px 45px;
+    }
+
+
+
+    /* quick-list */
+
+    .quick-list-container{
+        /* border: 2px solid red; */
+        flex-direction: column-reverse;
+    }
+
+    .quick-list-desc-container {
+        width: 90%;
+        text-align: left;
+        padding: 50px 20px 20px;
+    }
+    .quick-list-desc {
+        font-size: 1.2em;
+    }
+    .image-container{
+        border: border-box;
+        width: 95%;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* feature section */
+    .feature-container {
+        flex-direction: column;
+    }
+    .feature-category-container {
+        margin-right: 15px;
+    }
+    .feature-category-title{
+        font-size: 1.4em;
+    }
+    .feature-category-desc ,.feature-desc{
+        font-size: 1.2em;
+    }
+
+    .feature-image-container{
+        width: 100%;
+    }
+
+    .feature-image-container img {
+        width: 70%;
+    }
+
+    .experience {
+        width: 290px;bottom: 100px;
+        left: 65%;
+        /* border: 2px solid green; */
+    }
+
     /* sponsor section medium responsive */
     .sponsor-heading{
         font-size: 4em;
