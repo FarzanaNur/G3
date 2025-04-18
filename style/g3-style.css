@@ -399,8 +399,6 @@ li a{
         margin: 0px;
         padding: 0px 20px;
     }
-
-
     nav {
         padding: 30px 100px;
     }
@@ -453,8 +451,6 @@ li a{
         padding: 10px 68px 45px;
     }
 
-
-
     /* quick-list */
 
     .quick-list-container{
@@ -492,32 +488,50 @@ li a{
 
     .feature-image-container{
         width: 100%;
+        padding: 0px 20px;
+        /* margin: auto; */
+        /* border: 5px solid red; */
     }
 
     .feature-image-container img {
-        width: 70%;
+        height: 550px;
+        width: 450px
     }
 
     .experience {
-        width: 290px;bottom: 100px;
-        left: 65%;
+        width: 290px;
+        bottom: 450px;
+        left: 50%;
         /* border: 2px solid green; */
     }
 
+    /* facts section */
+    .facts-heading {
+        font-size: 3.5em;
+        margin: 0px 40px;
+        border-bottom: 6px solid #f29225;
+    }
+
+    .facts-desc {
+        font-size: 1.2em;
+    }
     /* sponsor section medium responsive */
     .sponsor-heading{
-        font-size: 4em;
+        font-size: 3em;
         color: #f58504;
         text-decoration: underline #d0750e;
+        /* border: 5px solid red; */
     }
     .sponsor-desc{
-        font-size: 2em;
+        font-size: 1.4em;
         padding: 0px;
-        margin: 0px 70px;
+        margin: 0px 24px;
     }
     .sponsor-image-container img{
         margin-left: 0px;
         padding: 0px;
+        height: 25px;
+        width: 30px;
     }
     /* footer medium responsive */
     .footer{
