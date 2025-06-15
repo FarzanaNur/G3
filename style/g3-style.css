@@ -39,6 +39,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border:2px solid red; */
+    /* max-width: 1040px;
+    margin: 0 auto; */
     padding: 30px 150px;
 }
 .page-title{
@@ -53,6 +56,10 @@ li a{
     margin-right: 20px;
     text-decoration: none;
     font-weight: 700px;
+}
+
+li a:hover{
+    color: #6a6363;
 }
 #login-anchor{
     margin-right: 0px;
@@ -279,7 +286,9 @@ li a{
     .heading-desc{
         padding: 10px 0px;
         margin: 0px 10px;
-        font-size: .8em;
+        font-size: 15px;
+        text-align: justify;
+        /* border: 3px solid red; */
     } 
     .header button{
         font-size: .8em;
@@ -414,6 +423,7 @@ li a{
     }
     .facts-desc{
         font-size: 1.5em;
+        /* border: 3px solid red; */
         margin-right: 0px;
         padding-right: 0px;            padding: 20px;
     }
@@ -530,7 +540,7 @@ li a{
         padding: 0px 20px;
         font-size: .7em;
     }
-    }
+    
     /* sponsor section medium responsive */
     .sponsor-heading{
         font-size: 3em;
